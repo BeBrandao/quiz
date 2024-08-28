@@ -1,0 +1,13 @@
+function checkAnswers() {
+    acertos = 0
+    variavel1 = ['a', '']
+    for(i=0;i<variavel1.length;i++){
+        indice_questao = i +1;
+        var answer = document.querySelector('input[name="resposta"'+ indice_questao +']:checked');
+        if(answer.value == variavel1[i]){
+            acertos++
+        }
+    }
+    
+
+}
