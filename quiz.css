@@ -29,10 +29,6 @@ h2 {
     justify-content: space-between;
 }
 
-.container:hover{
-    background-color: #D5AAFC;
-}
-
 .question {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -40,8 +36,16 @@ h2 {
 }
 
 .options label{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    box-shadow: 1px 1px 2.5px rgba(0, 0, 0, 0.473);
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.options label:hover{
+    background-color: #D5AAFC;
 }
 
 img {
