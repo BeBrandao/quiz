@@ -33,6 +33,7 @@ h2 {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
+    max-width: 75%;
 }
 
 .options label{
@@ -41,7 +42,7 @@ h2 {
     background-color: white;
     box-shadow: 1px 1px 2.5px rgba(0, 0, 0, 0.473);
     border-radius: 5px;
-    padding: 1px;
+    padding: 0.5px;
 }
 
 .options label:hover{
@@ -49,8 +50,10 @@ h2 {
 }
 
 img {
-    height: 180px;
-    width: 180px;
+    height: 18%;
+    width: 18%;
+    min-width: 180px;
+    min-height: 180px;
 }
 
 button {
