@@ -27,7 +27,7 @@ h2 {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
     margin: 1.5% 5%;
     display: flex;
-    align-items: flex;
+    align-items: center;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
