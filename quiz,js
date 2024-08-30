@@ -4,13 +4,14 @@ function checkAnswers() {
     var resultMessage = document.getElementById('resultMessage')
     for(i=0;i<variavel1.length;i++){
         indice_questao = i +1;
-        var answer = document.querySelector('input[name="resposta"'+ indice_questao +']:checked');
+        var answer = document.querySelector(`input[name="resposta${indice_questao}"]:checked`);
+        console.log(answer)
         if(answer.value == variavel1[i]){
             acertos++
         }
     }
     resultMessage.style.display = "block"
-    resultMessage.textContent = "Você acertou" + acertos + "questões"
+    resultMessage.textContent = "Você acertou " + acertos + " questões"
     resultMessage.style.color = "white"
 
 }
