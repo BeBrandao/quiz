@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #FFFACD;
     height: auto;
     width: auto;
 }
@@ -9,6 +9,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
     font-size: 40px;
+    color: #000080
 }
 
 h2 {
@@ -18,9 +19,11 @@ h2 {
 }
 
 .container {
-    background-color: white ;
+    background-color: #112C57;
+    height: auto;
+    width: auto;
     border-radius: 15px;
-    padding: 0.25% 2.5%;
+    padding: 1% 2.5%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
     margin: 1.5% 5%;
     display: flex;
@@ -34,19 +37,22 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     max-width: 75%;
+    color: white;
 }
 
 .options label{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: white;
+    background-color: #010156;
     box-shadow: 1px 1px 2.5px rgba(0, 0, 0, 0.473);
     border-radius: 5px;
     padding: 0.5px;
+    display: block;
+    justify-content: baseline;
 }
 
 .options label:hover{
-    background-color: #D5AAFC;
+    background-color: rgb(129, 124, 29);
 }
 
 img {
@@ -54,6 +60,13 @@ img {
     width: 18%;
     min-width: 180px;
     min-height: 180px;
+}
+
+.Questao-Grande {
+    height: 22%;
+    width: 22%;
+    min-width: 220px;
+    min-height: 220px;
 }
 
 button {
@@ -72,4 +85,15 @@ button {
 
 button:hover {
     background-color: #981BFF;
+}
+
+.result-message {
+    background-color: #112C57;
+    color: white;
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    padding: 1% 2.5%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    margin: 1.5% 5%;
 }

@@ -1,6 +1,7 @@
 function checkAnswers() {
     acertos = 0
-    variavel1 = ['a', '']
+    variavel1 = ['d', 'b', 'b', 'a', 'b', 'b', 'a', 'b', 'b', 'b']
+    var resultMessage = document.getElementById('resultMessage')
     for(i=0;i<variavel1.length;i++){
         indice_questao = i +1;
         var answer = document.querySelector('input[name="resposta"'+ indice_questao +']:checked');
@@ -8,6 +9,8 @@ function checkAnswers() {
             acertos++
         }
     }
-    
+    resultMessage.style.display = "block"
+    resultMessage.textContent = "Você acertou" + acertos + "questões"
+    resultMessage.style.color = "white"
 
 }
