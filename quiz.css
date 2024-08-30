@@ -76,15 +76,16 @@ button {
     border: 1px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
     font-size: 15px;
-    background-color: #D5AAFC;
+    background-color: #112C57;
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
 
 button:hover {
-    background-color: #981BFF;
+    background-color: rgb(129, 124, 29);
 }
 
 .result-message {
